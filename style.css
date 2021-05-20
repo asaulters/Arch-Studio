@@ -144,13 +144,17 @@ Home Mobile
   padding: 15% 5%;
 }
 .home-topH1 {
-  font-size: 35px;
-  font-weight: 800;
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
 }
 
 .home-topH3 {
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 10%;
+  font-weight: 900;
+  /* margin-top: %; */
+  color: white;
 }
 .home-topBtn {
   /* margin-top: 5%; */
@@ -204,4 +208,83 @@ Home Mobile
   color: white;
   font-size: 15px;
   margin-left: 5%;
+}
+.home-Featured {
+  display: grid;
+  grid-template-rows: 10% 20rem 18rem 18rem 10%;
+  grid-template-columns: 100%;
+  grid-gap: 20px;
+
+  margin: 10% auto 20% auto;
+  width: 90%;
+}
+
+.home-FeaturedH1Top {
+  grid-row: 1/2;
+  font-size: 35px;
+  font-weight: 800;
+}
+.home-FeaturedBtn {
+  grid-row: 5/6;
+  margin-bottom: 10%;
+}
+.home-Featured1 {
+  grid-row: 2/3;
+  background-image: url(/assets/portfolio/mobile/image-del-sol.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 60% 20% 20%;
+  grid-template-columns: 100%;
+  /* flex-direction: column; */
+  /* align-self: ; */
+  /* align-items: flex-start; */
+}
+.home-Featured2 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  background-image: url(/assets/portfolio/mobile/image-228b.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 60% 20% 20%;
+  width: 100%;
+}
+.home-Featured3 {
+  grid-row: 4/5;
+  background-image: url(/assets/portfolio/mobile/image-prototype.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 60% 20% 20%;
+}
+.home-FeaturedH1 {
+  display: none;
+}
+
+.home-FeaturedH2 {
+  grid-row: 2/3;
+  padding-left: 5%;
+  color: black;
+  font-weight: 1000;
+  font-size: 25px;
+}
+.home-FeaturedBtn {
+  grid-row: 3/4;
+  padding-left: 0%;
+  font-size: 20px;
+
+  width: 40%;
+  text-decoration: black;
+  background: unset;
+  border: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #black;
+  text-decoration: none;
+  cursor: pointer;
 }
