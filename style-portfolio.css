@@ -22,8 +22,8 @@ nav {
 }
 
 .logoTop {
-  height: 50%;
-  width: 60%;
+  height: 5rem;
+  width: 10rem;
 }
 
 .nav-links {
@@ -176,72 +176,361 @@ nav {
 }
 
 /* end shared mobile */
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100vw;
+}
 
 .port-projects {
   display: grid;
   width: 90%;
   margin: auto;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(12, 200px);
+  grid-template-rows: repeat(12, 250px);
   grid-gap: 20px;
 }
 .port-project1 {
   grid-row: 1/2;
-  background-image: url(/assets/portfolio/mobile/image-seraph.jpg);
+  background-image: url(/assets/portfolio/mobile/image-seraph-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project2 {
   grid-row: 2/3;
-  background-image: url(/assets/portfolio/mobile/image-eebox.jpg);
-  background-size: cover;
+  background-image: url(/assets/portfolio/mobile/image-eebox-tinted.jpg);
+  background-size: 100% 100%;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project3 {
   grid-row: 3/4;
   background-image: url(/assets/portfolio/mobile/image-federal.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project4 {
   grid-row: 4/5;
-  background-image: url(/assets/portfolio/mobile/image-del-sol.jpg);
+  background-image: url(/assets/portfolio/mobile/image-del-sol-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project5 {
   grid-row: 5/6;
-  background-image: url(/assets/portfolio/mobile/image-prototype.jpg);
+  background-image: url(/assets/portfolio/mobile/image-prototype-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project6 {
   grid-row: 6/7;
   background-image: url(/assets/portfolio/mobile/image-228b.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project7 {
   grid-row: 7/8;
-  background-image: url(/assets/portfolio/mobile/image-edelweiss.jpg);
+  background-image: url(/assets/portfolio/mobile/image-edelweiss-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project8 {
   grid-row: 8/9;
-  background-image: url(/assets/portfolio/mobile/image-netcry.jpg);
+  background-image: url(/assets/portfolio/mobile/image-netcry-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project9 {
   grid-row: 9/10;
   background-image: url(/assets/portfolio/mobile/image-hypers.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project10 {
   grid-row: 10/11;
-  background-image: url(/assets/portfolio/mobile/image-sxiv.jpg);
+  background-image: url(/assets/portfolio/mobile/image-sxiv-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project11 {
   grid-row: 11/12;
-  background-image: url(/assets/portfolio/mobile/image-trinity.jpg);
+  background-image: url(/assets/portfolio/mobile/image-trinity-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
 }
 .port-project12 {
   grid-row: 12/13;
-  background-image: url(/assets/portfolio/mobile/image-paramour.jpg);
+  background-image: url(/assets/portfolio/mobile/image-paramour-tinted.jpg);
   background-size: cover;
+  color: white;
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
+}
+.port-projectH2 {
+  grid-row: 2/3;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+.port-projectH3 {
+  grid-row: 3/4;
+  padding-left: 5%;
+}
+
+/* --------------------------------------------
+Port Tablet Small-----------------------------
+--------------------------------------------
+--------------------------------------------*/
+@media (min-width: 575px) {
+  footer {
+    /* position: absolute; */
+    /* bottom: -180; */
+    width: 100vw;
+    /* height: 100px; */
+    /* margin-bottom: -10%; */
+  }
+
+  .mainFooter {
+    height: 100px;
+    /* position: fixed; */
+    bottom: 0;
+    margin-bottom: -10%;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 45% 35%;
+    width: 100%;
+    background-color: transparent;
+  }
+  .footerLogo-Div {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* height: fit-content; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-bottom: -55%;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer-a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-self: center;
+    margin: auto;
+    /* padding-left: 20%; */
+  }
+  .logoFooter {
+    height: 25%;
+    width: 50%;
+    /* margin-top: 1px;
+        margin-right: auto; */
+    padding: 0;
+    background-color: transparent;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* margin: 0%; */
+    align-self: center;
+  }
+  .footerLinks {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+    background-color: #eeeff4;
+    width: 110%;
+    height: 100%;
+    margin-right: 25%;
+    margin-left: -13%;
+    padding-right: 20%;
+  }
+  .footerBtn {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 65%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .port-projects {
+    margin-bottom: -20%;
+  }
+  .port-project1 {
+    background-image: url(/assets/portfolio/tablet/image-seraph.jpg);
+  }
+  .port-project2 {
+    background-image: url(/assets/portfolio/tablet/image-eebox-tinted.jpg);
+  }
+  .port-project3 {
+    background-image: url(/assets/portfolio/tablet/image-federal.jpg);
+  }
+  .port-project4 {
+    background-image: url(/assets/portfolio/tablet/image-del-sol-tinted.jpg);
+  }
+  .port-project5 {
+    background-image: url(/assets/portfolio/tablet/image-prototype-tinted.jpg);
+  }
+  .port-project6 {
+    background-image: url(/assets/portfolio/tablet/image-228b-tinted.jpg);
+  }
+  .port-project7 {
+    background-image: url(/assets/portfolio/tablet/image-edelweiss-tinted.jpg);
+  }
+  .port-project8 {
+    background-image: url(/assets/portfolio/tablet/image-netcry-tinted.jpg);
+  }
+  .port-project9 {
+    background-image: url(/assets/portfolio/tablet/image-hypers.jpg);
+  }
+  .port-project10 {
+    background-image: url(/assets/portfolio/tablet/image-sxiv-tinted.jpg);
+  }
+  .port-project11 {
+    background-image: url(/assets/portfolio/tablet/image-trinity-tinted.jpg);
+  }
+  .port-project12 {
+    background-image: url(/assets/portfolio/tablet/image-paramour-tinted.jpg);
+  }
+  .port-projectH2 {
+    padding-top: -5%;
+  }
+  .port-projectH3 {
+    padding-top: 1%;
+  }
+}
+
+/* ------------------------------------------------------
+Tablet Md ------------------------------------------------------
+ ------------------------------------------------------
+ ------------------------------------------------------*/
+
+@media (min-width: 900px) {
+  body {
+    background-color: lightseagreen;
+  }
+  .port-projects {
+    grid-template-rows: repeat(12, 300px);
+  }
+}
+
+/* ------------------------------------------------------
+Desktop SM ------------------------------------------------------
+ ------------------------------------------------------
+ ------------------------------------------------------*/
+
+@media (min-width: 1250px) {
+  body {
+    background-color: lightsalmon;
+  }
+
+  .port-projects {
+    margin-top: 5%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: repeat(4, 500px);
+  }
+
+  .port-project1 {
+    background-image: url(/assets/portfolio/desktop/image-seraph-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .port-project2 {
+    background-image: url(/assets/portfolio/desktop/image-eebox-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .port-project3 {
+    background-image: url(/assets/portfolio/desktop/image-federal-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .port-project4 {
+    background-image: url(/assets/portfolio/desktop/image-del-sol-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .port-project5 {
+    background-image: url(/assets/portfolio/tablet/image-prototype-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .port-project6 {
+    background-image: url(/assets/portfolio/tablet/image-228b-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .port-project7 {
+    background-image: url(/assets/portfolio/tablet/image-edelweiss-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .port-project8 {
+    background-image: url(/assets/portfolio/tablet/image-netcry-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .port-project9 {
+    background-image: url(/assets/portfolio/tablet/image-hypers.jpg);
+    background-size: 100% 100%;
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .port-project10 {
+    background-image: url(/assets/portfolio/tablet/image-sxiv-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .port-project11 {
+    background-image: url(/assets/portfolio/tablet/image-trinity-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  .port-project12 {
+    background-image: url(/assets/portfolio/tablet/image-paramour-tinted.jpg);
+    background-size: 100% 100%;
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+
+  .port-projectH2 {
+    margin-top: 10%;
+    padding-bottom: -5%;
+  }
 }
