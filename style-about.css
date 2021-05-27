@@ -189,6 +189,7 @@ body {
   display: grid;
   grid-template-rows: 300px 400px;
   margin-bottom: 10%;
+  font-family: "Spartan", sans-serif;
 }
 .about-WU1H1 {
   display: none;
@@ -198,18 +199,333 @@ body {
   background-image: url(/assets/about/mobile/image-hero-tinted.jpg);
   background-size: 100% 100%;
   z-index: 0;
+  font-family: "Spartan", sans-serif;
 }
 .about-WU1WU {
   z-index: 1;
   grid-row: 2/3;
   background-color: white;
-  width: 80%;
+  width: 85%;
   padding-left: 5%;
   margin-top: -20%;
+  font-family: "Spartan", sans-serif;
 }
-.about-WU1H2 {
-  font-size: 3.5rem;
+.about-WU1H2,
+.about-WU2H2 {
+  font-size: 3rem;
+  font-family: "Spartan", sans-serif;
 }
-.about-WU1P {
+.about-WU1P,
+.about-WU2P {
   font-size: 1.5rem;
+  font-family: "Spartan", sans-serif;
+}
+
+.about-WU2 {
+  width: 85%;
+  padding-left: 5%;
+  margin-top: -10%;
+  font-family: "Spartan", sans-serif;
+}
+
+.about-leaders {
+  display: grid;
+  grid-template-columns: 90vw;
+  grid-template-rows: 100px repeat(4, minmax(500px, min-content));
+  padding-left: 5%;
+  grid-gap: 30px;
+  margin-bottom: 10%;
+}
+.about-leadersH1 {
+  grid-row: 1/2;
+  font-size: 3rem;
+  margin-bottom: 10%;
+}
+.about-leaders1 {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-rows: 70% 7% 7% 15%;
+  margin-top: 10%;
+}
+.about-leaders1Pic {
+  grid-row: 1/2;
+  background-image: url(/assets/about/desktop/avatar-jake.jpg);
+  background-size: 90% 100%;
+  background-repeat: no-repeat;
+}
+.about-leaders1H2 {
+  grid-row: 2/3;
+  font-size: 2rem;
+}
+.about-leaders1P {
+  grid-row: 3/4;
+  padding-top: 5%;
+  font-size: 1.5rem;
+}
+.about-leadersLinks {
+  grid-row: 4/5;
+  padding-top: 15%;
+}
+.about-leaders2 {
+  margin-top: 10%;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-rows: 70% 7% 7% 15%;
+}
+.about-leaders3 {
+  margin-top: 10%;
+  grid-row: 4/5;
+  display: grid;
+  grid-template-rows: 70% 7% 7% 15%;
+}
+.about-leaders4 {
+  margin-top: 10%;
+  grid-row: 5/6;
+  display: grid;
+  grid-template-rows: 70% 7% 7% 15%;
+  /* padding-bottom: 100%; */
+}
+
+.about-leaders2Pic {
+  grid-row: 1/2;
+
+  background-image: url(/assets/about/desktop/avatar-thompson.jpg);
+  background-size: 90% 110%;
+  background-repeat: no-repeat;
+}
+.about-leaders3Pic {
+  grid-row: 1/2;
+  background-image: url(/assets/about/desktop/avatar-jackson.jpg);
+  background-size: 90% 110%;
+  background-repeat: no-repeat;
+}
+.about-leaders4Pic {
+  grid-row: 1/2;
+  background-image: url(/assets/about/desktop/avatar-maria.jpg);
+  background-size: 90% 110%;
+  background-repeat: no-repeat;
+}
+
+/* 
+
+
+*/
+@media (min-width: 600px) {
+  main {
+    background-color: lightsalmon;
+  }
+  footer {
+    /* position: absolute; */
+    /* bottom: -180; */
+    width: 100vw;
+    /* height: 100px; */
+    /* margin-bottom: -10%; */
+  }
+
+  .mainFooter {
+    height: 100px;
+    /* position: fixed; */
+    bottom: 0;
+    margin-bottom: -10%;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 45% 35%;
+    width: 100%;
+    background-color: transparent;
+  }
+  .footerLogo-Div {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* height: fit-content; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-bottom: -55%;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer-a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-self: center;
+    margin: auto;
+    /* padding-left: 20%; */
+  }
+  .logoFooter {
+    height: 25%;
+    width: 50%;
+    /* margin-top: 1px;
+    margin-right: auto; */
+    padding: 0;
+    background-color: transparent;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* margin: 0%; */
+    align-self: center;
+  }
+  .footerLinks {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+    background-color: #eeeff4;
+    width: 110%;
+    height: 100%;
+    margin-right: 25%;
+    margin-left: -13%;
+    padding-right: 20%;
+  }
+  .footerBtn {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 65%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .flex-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-WU1 {
+    width: 90%;
+    margin: auto;
+  }
+  .about-WU1Img {
+    background-image: url(/assets/about/tablet/image-hero.jpg);
+    height: 600px;
+    z-index: 0;
+  }
+  .about-WU1H1 {
+    display: block;
+    z-index: 2;
+    font-size: 120px;
+    margin-top: -92%;
+    float: right;
+    justify-content: end;
+    margin-left: 30%;
+    font-family: "Spartan", sans-serif;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 5%;
+    color: #eeeef4;
+    /* position: absolute; */
+  }
+  .about-WU1WU {
+    margin-right: 10%;
+    z-index: 1;
+    width: 75%;
+    margin-left: 15%;
+    margin-top: -10%;
+    padding: 10% 10% 20% 5%;
+  }
+
+  .about-WU2 {
+    z-index: 8;
+    margin-top: 5%;
+  }
+
+  .about-leaders {
+    margin: auto;
+    grid-template-columns: 45% 50%;
+    grid-template-rows: 100px repeat(2, minmax(500px, min-content));
+    grid-gap: 1px;
+  }
+  .about-leaders1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .about-leaders2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .about-leaders3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .about-leaders4 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+}
+
+/* 
+Top H1
+*/
+@media (min-width: 650px) {
+  .about-WU1H1 {
+    margin-top: -92%;
+  }
+}
+
+@media (min-width: 700px) {
+  .about-WU1H1 {
+    color: green;
+    margin-top: -87%;
+  }
+}
+@media (min-width: 750px) {
+  .about-WU1H1 {
+    color: hotpink;
+    margin-top: -80%;
+  }
+}
+@media (min-width: 800px) {
+  .about-WU1H1 {
+    color: gold;
+    margin-top: -76%;
+  }
+}
+@media (min-width: 850px) {
+  .about-WU1H1 {
+    color: blue;
+    margin-top: -72%;
+  }
+}
+@media (min-width: 900px) {
+  .about-WU1H1 {
+    color: antiquewhite;
+    margin-top: -68%;
+  }
+}
+@media (min-width: 980px) {
+  .about-WU1H1 {
+    color: teal;
+    margin-top: -64%;
+  }
+}
+@media (min-width: 1050px) {
+  .about-WU1H1 {
+    color: crimson;
+    margin-top: -60%;
+  }
+}
+@media (min-width: 1100px) {
+  .about-WU1H1 {
+    color: violet;
+    margin-top: -56%;
+  }
+}
+@media (min-width: 1200px) {
+  .about-WU1H1 {
+    color: lime;
+    margin-top: -52%;
+  }
+}
+/* 
+Top H1 end
+*/
+
+@media (min-width: 850px) {
+  main {
+    background-color: turquoise;
+  }
 }
