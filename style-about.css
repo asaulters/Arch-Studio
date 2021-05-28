@@ -438,6 +438,7 @@ body {
     grid-template-columns: 45% 50%;
     grid-template-rows: 100px repeat(2, minmax(500px, min-content));
     grid-gap: 1px;
+    margin-bottom: -20%;
   }
   .about-leaders1 {
     grid-column: 1/2;
@@ -524,8 +525,57 @@ Top H1
 Top H1 end
 */
 
-@media (min-width: 850px) {
+@media (min-width: 1350px) {
   main {
     background-color: turquoise;
+  }
+
+  .about-WU1 {
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 500px;
+  }
+  .about-WU {
+    display: grid;
+    grid-template-rows: 30% 70%;
+  }
+  .about-WU1H1 {
+    grid-row: 1/2;
+  }
+  .about-WU1WU {
+    grid-row: 2/3;
+  }
+  .about-WU1Img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .about-leaders {
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: repeat(2, minmax(500px, min-content));
+    margin-top: 5%;
+  }
+  .about-leadersH1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-leaders1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .about-leaders2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .about-leaders3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .about-leaders4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
   }
 }
