@@ -428,12 +428,13 @@ Tablet SM
     border-top: none;
     grid-template-columns: 50% 50%;
     grid-template-rows: 15% 30% 65%;
-    margin-bottom: 0%;
+    margin-bottom: 20%;
     height: min-content;
+    width: 90%;
   }
   .contact-detailsH1 {
     font-size: 3rem;
-    margin-left: 5%;
+    margin-left: 0%;
     grid-column: 1/3;
     grid-row: 1/2;
   }
@@ -454,9 +455,9 @@ Tablet SM
     grid-column: 1/3;
     /* height: max-content; */
     background-image: url(/assets/contact/tablet/image-map.png);
-    background-size: 80% 100%;
+    background-size: 90% 200%;
     /* margin: auto; */
-    align-self: center;
+    margin-left: 0%;
   }
   .contact-formH1 {
     /* margin-top: -20%; */
@@ -468,7 +469,13 @@ Top H1
 */
 @media (min-width: 650px) {
   .contact-WU1H1 {
-    margin-top: -70%;
+    margin-top: -75%;
+    font-size: 100px;
+  }
+}
+@media (min-width: 675px) {
+  .contact-WU1H1 {
+    margin-top: -72%;
     font-size: 100px;
   }
 }
@@ -476,38 +483,38 @@ Top H1
 @media (min-width: 700px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -65%;
+    margin-top: -68%;
   }
 }
 @media (min-width: 750px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -60%;
+    margin-top: -68%;
     font-size: 120px;
   }
 }
 @media (min-width: 800px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -60%;
+    margin-top: -65%;
   }
 }
 @media (min-width: 850px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -55%;
+    margin-top: -60%;
   }
 }
 @media (min-width: 900px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -40%;
+    margin-top: -57%;
   }
 }
 @media (min-width: 950px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -50%;
+    margin-top: -55%;
   }
 }
 @media (min-width: 1050px) {
@@ -519,15 +526,160 @@ Top H1
 @media (min-width: 1100px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -45%;
+    margin-top: -47%;
   }
 }
 @media (min-width: 1200px) {
   .contact-WU1H1 {
     color: #eeeef4;
-    margin-top: -40%;
+    font-size: 160px;
+    margin-top: -45%;
   }
 }
 /* 
   Top H1 end
   */
+
+/* ----------------------------------------------
+----------------------------------------------
+Desktop SM-------------------------------------
+----------------------------------------------*/
+
+@media (min-width: 800px) {
+  .contact-WU1 {
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100px 400px;
+  }
+
+  .contact-WU1Img {
+    background-image: url(/assets/contact/desktop/image-hero.jpg);
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-size: 100% 100%;
+  }
+
+  .contact-WU1WU {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 40%;
+    margin-left: -40%;
+    padding-right: 5%;
+    padding: 10% 5% 50% 10%;
+    height: 60%;
+    width: 100%;
+  }
+  .contact-WU1H1 {
+    color: #eeeef4;
+    /* margin-top: -75%; */
+    margin-top: 10%;
+    margin-left: -100%;
+    margin-right: 30%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .contact-details {
+    margin-top: -5%;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  .contact-formH1 {
+    grid-column: 1/2;
+  }
+  form {
+    grid-column: 2/3;
+    height: 100%;
+  }
+  #contact-nameInput,
+  #contact-emailInput {
+    margin-top: 3%;
+    /* margin-bottom: 5%; */
+    padding-bottom: 1%;
+    padding-top: 3%;
+  }
+
+  .contact-textarea {
+    padding-top: 5%;
+  }
+}
+
+/* 
+
+desktop Md
+
+*/
+@media (min-width: 1000px) {
+  .contact-details {
+    width: 90%;
+    grid-template-columns: 25% 37% 37%;
+    grid-template-rows: 200px 600px;
+    height: max-content;
+    margin-bottom: 0%;
+  }
+  .contact-detailsH1 {
+    margin-top: 0%;
+    padding-top: 2%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .contact-details1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .contact-details2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: -7%;
+    z-index: 5;
+  }
+  .contact-detailsMap {
+    background-image: url(/assets/contact/desktop/image-map.png);
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-size: 90% 100%;
+  }
+  .contact-form {
+    width: 90%;
+    margin: 0% auto;
+  }
+  .contact-WU1WU {
+    height: 50%;
+  }
+  .contact-details1p,
+  .contact-details2p {
+    font-size: 130%;
+  }
+}
+
+/* 
+
+Desktop Lrg
+
+*/
+
+@media (min-width: 1400) {
+  main {
+    margin-bottom: -1000%;
+  }
+  .contact-details1 {
+    font-size: 200%;
+  }
+  .contact-details2 {
+    font-size: 200%;
+  }
+  .contact-detailsMap {
+    background-size: 90% 150%;
+    height: 800px;
+  }
+  .contact-form {
+    margin: 0% auto -50% auto;
+    height: 200px;
+  }
+  .contact-main {
+    margin-bottom: -50%;
+    padding-bottom: -50%;
+  }
+}
