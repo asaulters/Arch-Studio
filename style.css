@@ -537,7 +537,7 @@ Tablet large--------------------------------------------
 
 @media (min-width: 850px) {
   main {
-    background-color: lightgreen;
+    background-color: white;
   }
 
   .logoFooter {
@@ -580,7 +580,7 @@ desktop small--------------------------------------------
 
 @media (min-width: 1000px) {
   main {
-    background-color: lightyellow;
+    background-color: white;
   }
 
   /* .home-top{
@@ -722,7 +722,7 @@ desktop Med
 ----------------------------------------------*/
 @media (min-width: 1550px) {
   main {
-    background-color: lightseagreen;
+    background-color: white;
   }
   .home-top {
     height: 700px;

@@ -433,7 +433,7 @@ Tablet Md ------------------------------------------------------
 
 @media (min-width: 900px) {
   body {
-    background-color: lightseagreen;
+    background-color: white;
   }
   .port-projects {
     grid-template-rows: repeat(12, 300px);
@@ -447,7 +447,7 @@ Desktop SM ------------------------------------------------------
 
 @media (min-width: 1250px) {
   body {
-    background-color: lightsalmon;
+    background-color: white;
   }
 
   .port-projects {
