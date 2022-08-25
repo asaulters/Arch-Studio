@@ -316,20 +316,27 @@ main {
 .home-Featured1 {
   grid-row: 2/3;
   grid-column: 1/3;
-  background-image: "url('/assets/portfolio/desktop/image-del-sol.jpg')";
+  background-image: url('/assets/portfolio/desktop/image-del-sol.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
   grid-template-rows: 60% 20% 20%;
   grid-template-columns: 100%;
+  z-index: 1000;
   /* flex-direction: column; */
   /* align-self: ; */
   /* align-items: flex-start; */
 }
+/* .home-Featured1 img{
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  object-fit: cover;
+} */
 .home-Featured2 {
   grid-row: 3/4;
   grid-column: 1/3;
-  background-image: url(/assets/portfolio/mobile/image-228b.jpg);
+  background-image: url('/assets/portfolio/mobile/image-228b.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
@@ -339,7 +346,7 @@ main {
 .home-Featured3 {
   grid-row: 4/5;
   grid-column: 1/3;
-  background-image: url(/assets/portfolio/mobile/image-prototype.jpg);
+  background-image: url('/assets/portfolio/mobile/image-prototype.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
