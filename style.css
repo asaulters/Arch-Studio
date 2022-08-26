@@ -335,6 +335,8 @@ main {
   z-index: -10;
   object-fit: cover;
 } */
+
+
 .home-Featured2 {
   grid-row: 3/4;
   grid-column: 1/3;
