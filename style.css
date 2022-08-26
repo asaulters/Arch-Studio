@@ -322,12 +322,15 @@ main {
   display: grid;
   grid-template-rows: 60% 20% 20%;
   grid-template-columns: 100%;
+
   z-index: 10;
+
   /* flex-direction: column; */
   /* align-self: ; */
   /* align-items: flex-start; */
 }
 /* .home-Featured1 img{
+
   grid-row: 1/4;
   grid-column: 1/2;
   width: 100%;
@@ -336,7 +339,7 @@ main {
   object-fit: cover;
 } */
 
-/* random test to see */
+
 .home-Featured2 {
   grid-row: 3/4;
   grid-column: 1/3;
